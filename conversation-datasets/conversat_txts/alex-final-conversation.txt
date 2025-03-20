@@ -1,0 +1,74 @@
+Patient name: Alex
+
+### **Conversation 1:**
+
+1. **Therapist:** Hi Alex, how are you finding it when it comes to staying focused lately?
+2. **Alex:** It is not great. I keep zoning out, even when I try to concentrate on something small.
+3. **Therapist:** When does this usually happen?
+4. **Alex:** Pretty much all the time, but it is worse when I am stressed or tired.
+5. **Therapist:** How do you deal with it when you notice your mind wandering?
+6. **Alex:** I try to bring myself back to the task, but it only works for a little while.
+7. **Therapist:** Do you find some tasks easier to focus on than others?
+8. **Alex:** Maybe. If it is something simple, like folding laundry, I can manage. Anything more complex feels impossible.
+9. **Therapist:** Have you tried breaking bigger tasks into smaller steps?
+10. **Alex:** I have, but I still get distracted halfway through. It is frustrating.
+
+---
+
+### **Conversation 2:**
+
+1. **Therapist:** You mentioned feeling more irritable lately. Can you tell me a bit more about that?
+2. **Alex:** I get annoyed easily, even at small things like noises or interruptions.
+3. **Therapist:** How often does that happen?
+4. **Alex:** Almost daily. I try not to show it, but it is hard to ignore.
+5. **Therapist:** How do you usually handle those feelings?
+6. **Alex:** I just push them down. I do not want to seem like I am overreacting.
+7. **Therapist:** Does that help, or do those feelings linger?
+8. **Alex:** They stick around. I feel on edge for hours sometimes.
+9. **Therapist:** Do you notice a pattern, like certain times of the day or specific situations?
+10. **Alex:** I think it happens more when I am tired or already stressed about something.
+
+---
+
+### **Conversation 3:**
+
+1. **Therapist:** How has your sleep been recently?
+2. **Alex:** Not great. I wake up in the middle of the night and cannot get back to sleep.
+3. **Therapist:** How often does that happen?
+4. **Alex:** Probably four or five nights a week.
+5. **Therapist:** What do you do when you wake up?
+6. **Alex:** I usually grab my phone or just lie there thinking about stuff.
+7. **Therapist:** Does anything specific run through your mind when that happens?
+8. **Alex:** Just random thoughts, mostly about what I need to do the next day.
+9. **Therapist:** How does that affect you the next day?
+10. **Alex:** I feel tired and unfocused. It makes it harder to get anything done.
+
+---
+
+### **Conversation 4:**
+
+1. **Therapist:** How has your appetite been?
+2. **Alex:** It is been weird. Some days I barely eat, and other days I snack constantly.
+3. **Therapist:** Can you think of what might cause those changes?
+4. **Alex:** I think it depends on my mood. If I am stressed, I either forget to eat or just eat out of boredom.
+5. **Therapist:** What do you typically eat on the days you snack more?
+6. **Alex:** Mostly junk food—crisps, biscuits, stuff like that.
+7. **Therapist:** How do you feel after those days?
+8. **Alex:** Not great. I feel bloated and annoyed with myself for not eating better.
+9. **Therapist:** Do you think planning meals ahead might help with this?
+10. **Alex:** Maybe. I am not sure I would stick to it, though. I am not good at keeping routines.
+
+---
+
+### **Conversation 5:**
+
+1. **Therapist:** Alex, how are you feeling about life in general right now?
+2. **Alex:** I do not know. It feels a bit off, like I am not quite where I should be.
+3. **Therapist:** What makes you feel that way?
+4. **Alex:** I think it is just the little things piling up—feeling tired, unfocused, and annoyed with myself.
+5. **Therapist:** Do you think these feelings affect your daily routine?
+6. **Alex:** Definitely. It is hard to stay on top of things when I feel this way.
+7. **Therapist:** Is there anything that helps, even a little?
+8. **Alex:** Talking to friends sometimes helps, but I do not want to bother them with my problems too much.
+9. **Therapist:** How do you feel after sharing with someone?
+10. **Alex:** Usually better, but I still worry that I am making too big a deal out of things.

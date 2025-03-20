@@ -1,0 +1,12 @@
+Maria 40
+Marco 38
+Elena 35
+Linda 28
+Laura 23
+James 22
+Alex 15
+Gabriel 13
+Ethan 12
+Priya 7
+Maya 6
+Noah 5

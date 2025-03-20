@@ -1,0 +1,20 @@
+BootStrap: docker
+From: ollama/ollama
+
+
+%runscript
+    echo "Running a single inference first..."
+    
+    # If a model name is passed (like 'llama3.1'), use that; otherwise default
+    if [ -z "$1" ]; then
+        MODEL="llama3.1"
+    else
+        MODEL="$1"
+    fi
+
+    # 1) Do a single run (one-shot inference).
+    /usr/bin/ollama run "$MODEL"
+
+    # 2) After that single run finishes, switch to 'ollama serve' in the foreground
+    echo "Now starting the Ollama server in foreground for ongoing usage..."
+    exec /usr/bin/ollama serve

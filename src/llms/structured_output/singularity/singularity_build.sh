@@ -1,0 +1,1 @@
+sudo singularity build --disable-cache /mnt/experiments/slurm/singularity-containers/anxo/ollama-server.sif ollama-server-image.def

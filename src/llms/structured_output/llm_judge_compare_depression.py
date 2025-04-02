@@ -79,25 +79,23 @@ Your task:
 - Select either "{patient_a_name}", "{patient_b_name}", or "Tie" for the most depressed patient (more_depressed_patient).
 
 
-Ensure the output follows this schema:
+Ensure the output follows a JSON schema with the next fields:
 - summary_patient_a: **string** 
 - summary_patient_b: **string**
-- comparison: **string** (must be a single paragraph, no lists)
-- conclusion: **string** (must be a single sentence)
+- comparison: **string** (must be a string, no lists)
+- conclusion: **string** (must be a string, no lists)
 - more_depressed_patient: **string** (must be either "{patient_a_name}", "{patient_b_name}", or "Tie")
 """
 
     # Call Ollama with dynamically generated model
     response = await client.chat.completions.create(
-        model="llama3.1",
+        model="deepseek-r1",
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt}
         ],
         response_model=SummariesComparison,  # Enforces structured JSON dynamically
     )
-
-    print(response)
 
     return response
 

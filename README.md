@@ -18,7 +18,7 @@
 
 ## 📌  Overview
 
-This repository accompanies the paper **“Enhancing Automatic Depression Diagnosis with Language Model-Driven Simulated Patients”** and contains all code, data, and instructions needed to replicate its experiments. 
+This repository accompanies the paper **“TalkDep: Clinically Grounded LLM Personas for Conversation-Centric Depression Screening”** and contains all code, data, and instructions needed to replicate its experiments. 
 
  ## Abstract
 The increasing demand for mental health services has outpaced the availability of trained clinical professionals, leading to limited depression diagnosis support. This shortage has motivated the development of simulated or virtual patients to assist in training and evaluation, but existing approaches often fail to generate clinically valid, natural and diverse symptom presentations. In this work, we embrace the recent advanced language models as the backbone and propose a novel patient simulation pipeline with access to diversified patient profiles to generate simulated patients. By conditioning the model on psychiatric diagnostic criteria, symptom severity scales, and contextual factors, we aim to create authentic patient responses that can better support diagnostic model training and evaluation. We verify the reliability of these simulated patients with thorough assessments conducted by clinical professionals. The availability of validated simulated patients offers a scalable and adaptable resource for improving the robustness and generalisability of automatic depression diagnosis systems. 

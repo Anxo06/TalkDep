@@ -1,5 +1,14 @@
 import json
+import argparse
 from typing import List, Tuple, Dict, Any
+
+"""
+This script evaluates the predictions of depression levels based on a ranking dictionary.
+It reads a JSONL file containing pairs of patients and their predicted depression levels,
+and compares these predictions against a predefined ranking of patients based on their BDI-II scores.
+It calculates the accuracy of the predictions, identifies cases where 'neither' or 'tie' was chosen,
+and computes the percentage of mismatches and ties that were correctly identified as having the same depression level.
+"""
 
 # Ranking dictionary with BDI-II levels
 ranking: Dict[str, Tuple[int, str]] = {
@@ -81,18 +90,25 @@ def evaluate_predictions(jsonl_file: str) -> Tuple[float, List[Tuple[str, str, i
 
     return accuracy, neither_cases, incorrect_cases, mismatch_level_match_percentage, tie_level_match_percentage
 
-# Example usage
-jsonl_file: str = "/mnt/gpu-fastdata/anxo/llms-personas/src/llms/structured_output/results/comparisons-gemma3.2-27b-names.jsonl"
-accuracy, neither_cases, incorrect_cases, mismatch_level_match_percentage, tie_level_match_percentage = evaluate_predictions(jsonl_file)
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Evaluate depression prediction rankings.")
+    parser.add_argument("jsonl_file", type=str, help="Path to the JSONL file containing the results.")
+    args = parser.parse_args()
 
-print(f"Prediction Accuracy: {accuracy:.2f}%")
-print("Cases where 'Neither' was chosen:")
-for patient_a, patient_b, distance in neither_cases:
-    print(f"{patient_a} vs {patient_b} - Score Distance: {distance}")
+    jsonl_file: str = args.jsonl_file
+    accuracy, neither_cases, incorrect_cases, mismatch_level_match_percentage, tie_level_match_percentage = evaluate_predictions(jsonl_file)
 
-print("\nIncorrect Predictions:")
-for patient_a, patient_b, predicted, actual, distance in incorrect_cases:
-    print(f"{patient_a} vs {patient_b}: Score Distance: {distance}")
+    print(f"Prediction Accuracy: {accuracy:.2f}%")
+    print("Cases where 'Neither' was chosen:")
+    for patient_a, patient_b, distance in neither_cases:
+        print(f"{patient_a} vs {patient_b} - Score Distance: {distance}")
 
-print(f"\nPercentage of mismatches with same depression level: {mismatch_level_match_percentage:.2f}%")
-print(f"Percentage of ties with same depression level: {tie_level_match_percentage:.2f}%")
+    print("\nIncorrect Predictions:")
+    for patient_a, patient_b, predicted, actual, distance in incorrect_cases:
+        print(f"{patient_a} vs {patient_b}: Score Distance: {distance}")
+
+    print(f"\nPercentage of mismatches with same depression level: {mismatch_level_match_percentage:.2f}%")
+    print(f"Percentage of ties with same depression level: {tie_level_match_percentage:.2f}%")
+
+# Example usage:
+# python evaluate_ranking_depression_prediction.py results.jsonl

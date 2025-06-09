@@ -1,4 +1,4 @@
-# 🧑‍⚕️💬 Enhancing Automatic Depression Diagnosis with Language Model-Driven Simulated Patients
+# 🧑‍⚕️💬 TalkDep: Clinically Grounded LLM Personas for Conversation-Centric Depression Screening
 
 <!-- Author list (center-aligned) -->
 <div style="text-align:center; line-height:1.4; font-family:system-ui, sans-serif;">

@@ -90,7 +90,7 @@ The increasing demand for mental health services has outpaced the availability o
 ### 📊  Evaluating the Results
 
 ```bash
-python  evaluation/llms-as-judges/evaluation/evaluate_results.py \
+python  evaluation/llms-as-judges/evaluation/evaluate_ranking_depression_prediction.py \
     /path/to/results.jsonl \
     llm-personas-information/golden_truth_BDI_depression_ranking.txt
 

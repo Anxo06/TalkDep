@@ -76,7 +76,7 @@ The increasing demand for mental health services has outpaced the availability o
 2.  **Launch the comparison script**
     
     ```bash
-    python src/llms/structured_output/llm_judge_compare_depression.py \
+    python evaluation/llms-as-judges/structured_output/llm_judge_compare_depression.py \
         /path/to/conversations \
         /path/to/results.jsonl
     
@@ -90,7 +90,7 @@ The increasing demand for mental health services has outpaced the availability o
 ### 📊  Evaluating the Results
 
 ```bash
-python src/evaluation/evaluate_results.py \
+python  evaluation/llms-as-judges/evaluation/evaluate_results.py \
     /path/to/results.jsonl \
     llm-personas-information/golden_truth_BDI_depression_ranking.txt
 

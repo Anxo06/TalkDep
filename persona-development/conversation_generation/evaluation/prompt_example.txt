@@ -1,0 +1,168 @@
+You are an experienced therapist with extensive expertise in evaluating patients for depression using the Beck Depression Inventory-II (BDI-II). Your task is to simulate a professional evaluation based on recorded conversations between a patient and a therapist.
+
+Here, I am providing 5 recorded conversations. Based on these, evaluate the severity of depression, if any, that the patient is experiencing using the BDI-II scoring system.
+
+Instructions:
+BDI-II Scoring and Severity Levels:
+
+BDI-II score ranges between 0 and 63, where:
+
+0–13: Minimal depression (or no significant symptoms).
+14–19: Mild depression.
+20–28: Moderate depression.
+29–63: Severe depression.
+
+Specify an exact score (not a range) based on your assessment.
+Symptom Identification:
+-- BDI-II evaluates 21 symptoms, each scored from 0 to 3. Reference the descriptions provided to score only the symptoms that clearly align with the patient's statements in the conversations.
+-- Identify exactly four key negative symptoms and provide their scores. Select symptoms that you find most relevant based on the patient’s behaviour and expressions in the conversations.
+
+Neutrality and Sensibility:
+-- Be sensible and avoid overdiagnosing. Assign a depression severity only if the symptoms clearly meet the thresholds outlined in the BDI-II.
+-- If there is no substantial evidence of depression, classify the severity as "Minimal depression" or "No depression symptoms", with an appropriate score in the range of 0–13.
+
+Assessment Process:
+-- Carefully examine the patient’s expressions and behaviours in the conversations. Use only the explicit evidence provided.
+-- Ensure your scoring is consistent with the BDI-II symptom descriptions.
+
+Output Format:
+-- First, state the severity range (e.g., "Minimal depression", "Mild depression", etc.).
+-- Provide the exact BDI-II score.
+-- List the four key negative symptoms you identified and their scores, e.g.:
+
+Sadness: 2
+Pessimism: 1
+Loss of Energy: 3
+Indecisiveness: 1
+
+Recorded Conversations:
+
+Conversation 1:
+
+Therapist: Hi Noah, how have you been feeling about yourself lately?
+
+Noah: I think I am doing okay, but sometimes I feel like I am not doing as well as I should be.
+
+Therapist: That sounds frustrating. Do you feel that way in specific areas of your life, or is it more general?
+
+Noah: Mostly at work. I look at others who seem to be advancing faster, and it makes me wonder if I am falling behind.
+
+Therapist: Have you spoken with anyone at work about how you are doing?
+
+Noah: Not really. I figure it is just something I need to handle on my own.
+
+Therapist: That makes sense, but feedback from colleagues or supervisors could give you a clearer picture. Would that help?
+
+Noah: Maybe. I think I am just too hard on myself sometimes.
+
+Therapist: It is easy to be self-critical, especially when you compare yourself to others. What do you think you are doing well right now?
+
+Noah: I think I have been staying organised and meeting deadlines, even when it feels challenging.
+
+Therapist: That is excellent. Recognising those successes can help balance out the self-doubt. Could you take a moment each day to note something you are proud of?
+
+Noah: I can try that. It might help me focus on the positives more.
+
+
+Conversation 2:
+
+Therapist: How have you been managing your daily tasks, Noah?
+
+Noah: It is fine once I get started, but getting started is harder than it used to be.
+
+Therapist: Is it certain types of tasks, or does it depend on how you are feeling?
+
+Noah: Mostly work-related things, but even hobbies sometimes feel like a chore.
+
+Therapist: That sounds frustrating. What do you usually do to push past that initial hurdle?
+
+Noah: I tell myself to just start small, like doing one little thing first.
+
+Therapist: That is a great approach. Do you feel that works most of the time?
+
+Noah: It does, but on some days, I still feel like I am dragging my feet.
+
+Therapist: On those harder days, do you find it helps to plan breaks or reward yourself for completing tasks?
+
+Noah: I have not tried that much. I usually just keep going until I am done.
+
+Therapist: Taking intentional breaks or giving yourself a small reward might make it feel less draining. Would you be open to trying that?
+
+Noah: Sure, I can give it a shot.
+
+Therapist: Let us see if that helps make starting and finishing tasks feel a bit easier this week.
+
+
+Conversation 3:
+
+Therapist: You mentioned feeling more annoyed by small things lately. Can you give me an example?
+
+Noah: Yeah, things like people interrupting me when I am working really get on my nerves.
+
+Therapist: How do you handle those moments when they come up?
+
+Noah: I usually just take a deep breath and move on. I do not want to make a big deal out of it.
+
+Therapist: That sounds like a helpful strategy. Does the feeling linger, or does it pass quickly?
+
+Noah: It passes quickly, but I feel bad for getting annoyed in the first place.
+
+Therapist: Feeling guilty about those moments can add extra stress. Could reminding yourself that it is a normal reaction help ease that guilt?
+
+Noah: Maybe. I guess everyone gets annoyed sometimes.
+
+Therapist: Exactly. And recognising that can make it easier to let go of the irritation. Do you think taking short breaks during the day might help as well?
+
+Noah: Probably. I do not take many breaks, so that might help me reset.
+
+Therapist: Let us try adding a short break when you notice irritation building up. It might help you feel more in control.
+
+
+Conversation 4:
+
+Therapist: How has your sleep been recently, Noah?
+
+Noah: It is mostly fine, but sometimes I wake up feeling tired even after a full night’s sleep.
+
+Therapist: Do you notice this happens more often when you are feeling stressed or overwhelmed?
+
+Noah: Yes, especially if I have had a busy day or if something is on my mind.
+
+Therapist: Have you tried adjusting your evening routine to help you unwind?
+
+Noah: Not really. I usually just scroll through my phone until I fall asleep.
+
+Therapist: Using your phone before bed can sometimes make it harder to get restful sleep. Would you consider reducing screen time before bed?
+
+Noah: I could try that. Maybe I could read a book instead.
+
+Therapist: That is a great idea. How about starting with 15 minutes of reading instead of screen time before bed?
+
+Noah: That sounds manageable. I will give it a try.
+
+Therapist: Let us see how that affects how you feel in the mornings.
+
+
+Conversation 5:
+
+Therapist: What has been going well for you this past week, Noah?
+
+Noah: I have been staying on top of things at work and helping out more at home, which feels good.
+
+Therapist: That is excellent. Do you feel that recognising these successes helps with your self-doubt?
+
+Noah: A little, but I still catch myself focusing on what I could be doing better.
+
+Therapist: That is a common pattern. What do you think triggers those thoughts?
+
+Noah: Comparing myself to others, mostly. I see friends achieving big things, and I feel like I should be doing more.
+
+Therapist: Comparisons can be tough. What would it feel like to focus more on your personal goals rather than others’ achievements?
+
+Noah: It would probably take some pressure off. I just need to remind myself to do that.
+
+Therapist: What if you set a goal to write down one personal accomplishment each day? Would that help you stay focused on your own progress?
+
+Noah: That could work. It would help me see what I am actually doing right.
+
+Therapist: Exactly. Let us make that a small goal for the week and see how it feels.

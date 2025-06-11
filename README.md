@@ -35,6 +35,8 @@ The increasing demand for mental health services has outpaced the availability o
 │    └── llm-personas-information/       # Conversation logs, prompts, golden‑truth ranking
 |       └── patient_profiles/       # profiles prepared by clinical professionals
 │       └── golden_truth_BDI_depression_ranking.txt   # Golden truth depression ranking the LLM personas based on the BDI-II
+│       └── Personas_General_Attributes.md   # The eight key attributes and their motivation for creating the initial simulated patients
+
 |    └── conversation_generation/        # release prompts for the generation of synthetic dialogues as additional context
 |       └── llms-personas-initial-prompts        # The prompts used to generate the initial conversations
 |       └── depression_screening        # assess the generated dialogues as depression screening via LLMs

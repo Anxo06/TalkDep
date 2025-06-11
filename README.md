@@ -31,13 +31,20 @@ The increasing demand for mental health services has outpaced the availability o
 
 ```text
 .
-├── llm-personas-information/       # Conversation logs, prompts, golden‑truth ranking
-│   └── conversation-logs/   # Conversation logs
-│   └── Form-Simulation_Evaluation_of_LLM_Personas.pdf   # Form with the evaluation of LLM personas given to clinicians
-│   └── golden_truth_BDI_depression_ranking.txt   # Golden truth depression ranking the LLM personas based on the BDI-II
+├──  persona-development/       # resources related to the development of simulated personas   
+│    └── llm-personas-information/       # Conversation logs, prompts, golden‑truth ranking
+│       └── conversation-logs/   # Conversation logs
+│       └── Form-Simulation_Evaluation_of_LLM_Personas.pdf   # Form with the evaluation of LLM personas given to clinicians
+│       └── golden_truth_BDI_depression_ranking.txt   # Golden truth depression ranking the LLM personas based on the BDI-II
+|    └── conversation_generation/        # release prompts for the generation of synthetic dialogues as additional context
+|       └── llms-personas-initial-prompts        # The prompts used to generate the initial conversations
+|       └── depression_screening        # assess the generated dialogues as depression screening via LLMs
+|       └── re-generation_prompt         # prompt for improving generated dialogues if regeneration is required
 
-├── src/
-│   └── llms/
+├── evaluation/
+|   └── expert_evaluation/       # instructions for clinician evaluation
+|       └── evaluation_instruction.md       # instruction for the evaluation scheme  
+│   └── llms-as-judges/
 │       └── structured_output/
 │           └── llm_judge_compare_depression.py  # Main experiment script
 │           └── evaluation/evaluate_ranking_depression_prediction.py  # Evaluation script

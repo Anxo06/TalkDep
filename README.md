@@ -123,10 +123,31 @@ The script reports accuracy metrics by comparing your model’s ranking against 
 
 ## 📝 Citation
 
-*Coming soon – paper under submission.*  
-If you use this resource, please ⭐ star the repo and stay tuned for citation info.
+**Accepted at CIKM 2025** — *Temporary citation until official proceedings are available.*
 
----
+If you use this resource, please ⭐ **star the repository** and stay tuned for final citation information.
+
+📄 **Preprint:** [arXiv:2508.04248](https://arxiv.org/pdf/2508.04248)
+
+```bibtex
+@inproceedings{bao2025redsm5,
+  title        = {ReDSM5: A Reddit Dataset for DSM-5 Depression Detection},
+  author       = {Bao, Eliseo and Perez, Anxo and Parapar, Javier},
+  year         = {2025},
+  booktitle    = {Proceedings of the 34th ACM International Conference on Information and Knowledge Management},
+  location     = {Seoul, Republic of Korea},
+  publisher    = {Association for Computing Machinery},
+  address      = {New York, NY, USA},
+  series       = {CIKM '25},
+  pages        = {TBD},
+  doi          = {10.1145/3746252.3761610},
+  isbn         = {9798400720406},
+  url          = {https://doi.org/10.1145/3746252.3761610},
+  numpages     = {TBD},
+  keywords     = {depression detection, DSM-5, mental health, Reddit, explainability}
+}
+```
+
 
 ## 📬 Contact
 

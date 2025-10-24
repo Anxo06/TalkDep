@@ -130,9 +130,9 @@ If you use this resource, please ⭐ **star the repository** and stay tuned for 
 📄 **Preprint:** [arXiv:2508.04248](https://arxiv.org/pdf/2508.04248)
 
 ```bibtex
-@inproceedings{bao2025redsm5,
-  title        = {ReDSM5: A Reddit Dataset for DSM-5 Depression Detection},
-  author       = {Bao, Eliseo and Perez, Anxo and Parapar, Javier},
+@inproceedings{wang2025talkdep,
+  title        = {TalkDep: Clinically Grounded LLM Personas for Conversation-Centric Depression Screening},
+  author       = {Wang, Xi and Perez, Anxo and Parapar, Javier and Crestani, Fabio},
   year         = {2025},
   booktitle    = {Proceedings of the 34th ACM International Conference on Information and Knowledge Management},
   location     = {Seoul, Republic of Korea},
@@ -140,12 +140,12 @@ If you use this resource, please ⭐ **star the repository** and stay tuned for 
   address      = {New York, NY, USA},
   series       = {CIKM '25},
   pages        = {TBD},
-  doi          = {10.1145/3746252.3761610},
-  isbn         = {9798400720406},
-  url          = {https://doi.org/10.1145/3746252.3761610},
+  doi          = {10.1145/3746252.3761617},
+  url          = {https://doi.org/10.1145/3746252.3761617},
   numpages     = {TBD},
-  keywords     = {depression detection, DSM-5, mental health, Reddit, explainability}
+  keywords     = {depression detection, LLMs, mental health, Simulation}
 }
+
 ```
 
 
